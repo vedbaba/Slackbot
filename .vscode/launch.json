@@ -2,12 +2,7 @@
     "configurations": [{
         "type": "node",
         "request": "launch",
-        "name": "Launch via NPM",
-        "runtimeExecutable": "npm",
-        "runtimeArgs": [
-            "run-script",
-            "debug"
-        ],
-        "port": 5858
+        "name": "Launch Program",
+        "program": "${workspaceRoot}/bin/bot.js"
     }]
 }
